@@ -1,0 +1,464 @@
+body{
+	background-color: #F7F7F7;
+}
+.navbar-toggler-icon{
+	background-image: url(../img/hamburger.jpg);
+}
+
+/*=====================Navigation Menu Start================*/
+.cstm-btn{
+	color: white;
+    background-color: #003459;
+    border: 10px solid #003459;
+    border-radius: 50px
+}
+.menu-btn{
+	margin-left: 55px;
+	color: black;
+	font-weight: 700;
+}
+
+/*=====================Navigation Menu Start================*/
+
+
+
+
+/*=====================Hero section Start================*/
+.hero-section{
+	background:url(../img/bg.png)no-repeat;
+	background-size: cover;
+}
+.hero-text{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.business-text{
+	margin-top: 35px;
+}
+
+/*=====================Hero section End================*/
+
+
+
+/*=====================Nedd a solution section Start================*/
+.solution{
+	border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -40px;
+    background-color: white;
+}
+
+
+/*=====================Nedd a solution section End================*/
+
+
+
+/*=====================Letter section Start================*/
+.letter{
+	padding-left: 12px;
+	
+}
+.all-letter{
+	color: #0A334F;
+	font-weight: 700;
+	margin-top: 45px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 4px;
+    font-size: 17px;
+    border: 1px solid #DADADA;
+    float: left;
+    width: 80%;
+    background: white;
+    border-radius: 6px 0px 0px 6px;
+}
+
+
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 4px;
+    background: white;
+    color: #093C5F;
+    font-size: 17px;
+    border: 1px solid #DDDDDD;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0px 5px 6px 0px;
+}
+
+form.example button:hover {
+  background: #093C5F;
+  color: white;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.search-bar{
+	margin-bottom: 35px;
+}
+
+
+
+/*=====================Letter section end================*/
+
+
+
+/*=====================Table section Start================*/
+
+.menuacco .accordion-heading {  position: relative; }
+.menuacco .accordion-heading .edit {
+    position: absolute;
+    top: 8px;
+    right: 30px; 
+}
+.menuacco .collapse.in { overflow: visible; }
+
+.rowlist { 
+	margin-top: 10px;
+	margin-bottom:10px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.rowlistheader { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F6F6F6;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.rowplaceholder {
+    border: 1px solid green;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px #888;
+    -moz-box-shadow: 0px 0px 10px #888;
+    box-shadow: 0px 0px 10px #888;
+	height: 40px;
+}
+.tbl-head{
+	background-color:#00C0FF; 
+}
+
+.tbl-clr-one{
+	background-color: #E8F9FF;
+    color: black;
+    font-weight: 600;
+}
+.tbl-clr-two{
+	background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.hidden-text{
+	background-color: #00BFFE;
+	color: white;
+
+}
+
+
+/*=====================Table section end================*/
+
+
+/*=====================Last update section Start================*/
+
+.bottom-nmbr-text{
+	color: black;
+	    color: black;
+    font-weight: 500;
+}
+
+.bottom-first{
+	color: black;
+}
+.bottom-prev{
+	color: black;
+	margin-left: 30px; 
+}
+
+.number{
+	color: black;
+	margin-left: 30px;
+	background-color: white;
+	border: 1px solid #E3E3E3;
+    padding-right: 30px;
+    padding-left: 8px;
+    border-radius: 5px;
+
+}
+.bottom-next{
+	color: black;
+	margin-left: 30px;
+	border: 1px solid #00C0FF;
+    background-color: #00C0FF;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 8px;
+}
+.bottom-last{
+	color: black;
+	margin-left: 30px;
+}
+
+.bottom-text{
+	text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+/*=====================Last update section end================*/
+
+
+/*=====================Footer section Start================*/
+
+.footer{
+	background-color: #003459;
+	color: white;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.about-us{
+	margin-top: 45px;
+    margin-bottom: 30px;
+}
+.icon{
+	margin-top: 45px;
+    margin-bottom: 30px;
+}
+.cstm-icon{
+
+    padding: 0px 28px 2px 16px;
+
+}
+/*=====================Footer section End================*/
+
+ 
+
+
+
+
+
+/*=========== Mobile responsive section start================*/
+@media (min-width: 320px) and (max-width:520px){
+
+h2{
+  font-size: 21px;  
+}
+h5{
+    font-size: 15px;
+}
+.table-font{
+    font-size: 13px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+.hero-section {
+    background: url(../img/bg.png)no-repeat;
+    background-size: cover;
+    background-size: 100% 91%;
+}
+.cstm-btn {
+    
+    color: white;
+    background-color: #003459;
+    border: 8px solid #003459;
+    border-radius: 18px;
+    
+
+}
+
+.number{
+	color: black;
+	margin-left: 15px;
+	background-color: white;
+	border: 1px solid #E3E3E3;
+    padding-right: 30px;
+    padding-left: 8px;
+    border-radius: 5px;
+
+}
+.bottom-next{
+	color: black;
+	margin-left: 15px;
+	border: 1px solid #00C0FF;
+    background-color: #00C0FF;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 8px;
+}
+.bottom-last{
+	color: black;
+	margin-left: 15px;
+}
+
+.bottom-text{
+	text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: black;
+}
+.bottom-prev {
+    color: black;
+    margin-left: 15px;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color: black;
+}
+
+
+.icon {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.all-letter {
+    color: #0A334F;
+    font-weight: 700;
+    margin-top: 45px;
+    display: none;
+}
+.search-bar {
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+.about-us {
+    margin-top: 45px;
+    margin-bottom: 12px;
+}
+
+}
+
+@media (min-width: 521px) and (max-width:768px){
+    h2{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    p{
+        font-size: 13px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    .table-font{
+        font-size: 14px;
+    }
+	.hero-section {
+    background: url(../img/bg.png)no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.cstm-btn {
+    color: white;
+    background-color: #003459;
+    border: 10px solid #003459;
+    border-radius: 25px;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color: black;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.about-us {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+}
+
+
+@media (min-width: 769px) and (max-width:991px){
+	.hero-section {
+    background: url(../img/bg.png)no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.bottom-next {
+    color: black;
+    margin-left: 0px;
+    border: 1px solid #00C0FF;
+    background-color: #00C0FF;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 8px;
+}
+.cstm-icon {
+    padding: 0px 13px 0px 10px;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: black;
+}
+}
+
+
+@media (min-width: 991px) and (max-width:1200px){
+	.hero-section {
+    background: url(../img/bg.png)no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.bottom-prev {
+    color: black;
+    margin-left: 15px;
+}
+.number {
+    color: black;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid #E3E3E3;
+    padding-right: 30px;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+.bottom-next {
+    color: black;
+    margin-left: 15px;
+    border: 1px solid #00C0FF;
+    background-color: #00C0FF;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 8px;
+}
+.bottom-last {
+    color: black;
+    margin-left: 15px;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    color: black;
+}
+}
+/*=========== Mobile responsive section end================*/
